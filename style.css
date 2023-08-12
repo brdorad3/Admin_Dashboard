@@ -65,3 +65,101 @@ button{
 .avatar{
     margin-right: 20px;
 }
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 25px;
+    padding: 0px 25px 40px 10px;
+}
+.left{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 4fr 4fr 4fr;
+    gap: 15px;
+    padding-left: 15px;
+}
+h4{
+    grid-column: 1/-1;
+}
+.card{
+    background-color: aliceblue;
+    padding: 25px 15px 20px 25px;
+    border-radius: 10px;
+    border-left: 8px solid orange;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+svg{
+    width: 28%;
+}
+.second{
+    display: grid;
+ align-self: flex-end;
+justify-items: center;
+ grid-template-columns: 2fr 1fr 2fr;
+ padding-left: 150px;
+ gap: 10px;
+}
+.svg1{
+    justify-self: end ;
+}
+.svg2{
+    justify-self: start;
+}
+.right{
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr 4fr;
+}
+h4{
+    align-self: flex-end;
+}
+.gotham{
+    background-color: aliceblue;
+    border-radius: 8px ;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    padding: 20px 50px 20px 50px;
+    
+    
+}
+.gotham1, .gotham2, .gotham3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  text-align: center;
+   justify-content: center;
+}
+.gotham1, .gotham2{
+    border-bottom: 1px solid gray;
+}
+.h4{
+    margin-bottom: 15px;
+}
+.trending{
+    background-color: rgb(169, 206, 207);
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    border-radius: 8px;
+    padding: 20px;
+}
+.trend1 , .trend2 , .trend3, .trend4{
+    display: flex;
+    gap: 15px;
+}
+.gotham1>p:first-child, .gotham2>p:first-child, .gotham3>p:first-child{
+    font-weight: 900;
+   
+}
+.gotham1>p:first-child{
+    padding-right: 60px;
+}
+.gotham2>p:first-child{
+    padding-right: 22px;
+}
+.gotham3>p:first-child{
+    padding-right: 16px;
+}
+.tr{
+    align-self: end;
+    padding-bottom: 15px;
+}
